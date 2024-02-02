@@ -32,6 +32,8 @@ var swiper = new Swiper(".course-slider", {
       },
   });
 
+
+  // teachers slider//
   var swiper = new Swiper(".teachers-slider", {
     spaceBetween: 20,
     grabCursor:true,
@@ -40,10 +42,10 @@ var swiper = new Swiper(".course-slider", {
       el: ".swiper-pagination",
       clickable: true,
     },
-   autoplay: {
-        delay: 2000,
-        disableOnInteraction: false,
-    },
+  //  autoplay: {
+  //       delay: 2000,
+  //       disableOnInteraction: false,
+  //   },
 
     breakpoints: {
         540: {
@@ -58,6 +60,8 @@ var swiper = new Swiper(".course-slider", {
       },
   });
 
+
+  //reviews slider//
   var swiper = new Swiper(".reviews-slider", {
     spaceBetween: 20,
     grabCursor:true,
@@ -67,10 +71,11 @@ var swiper = new Swiper(".course-slider", {
       clickable: true,
     },
 
-    autoplay: {
-        delay:3500,
-        disableOnInteraction: false,
-    },
+    // autoplay: {
+    //     delay:3500,
+    //     disableOnInteraction: false,
+    // },
+    
     breakpoints: {
         540: {
           slidesPerView: 1,
